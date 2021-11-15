@@ -5,7 +5,6 @@
 .hero{
     background-color: #1f2937;
     width: 100%;
-
 }
 .navbar{
     margin: 0px auto;
@@ -91,4 +90,46 @@ h2{
     display: flex;
     max-width: 550px;
     margin-right: 10px;
+}
+.middle{
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+h3{
+    width: 1200px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 36px;
+    color: ##1f2937;
+    padding: 50px;
+    text-align: center;
+}
+.thumbrow {
+    max-width: 1200px;
+    margin: 0 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.thumbcard {
+    padding: 15px;
+    height: 100px;
+    margin: 0px 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.thumbcard img{
+    margin: 3px;
+    padding: 3px;
+    width: 200px;
+    object-fit: contain;
+    max-width: 100%;
+    background-color: #3882F6;
+    flex: 0;
 }
